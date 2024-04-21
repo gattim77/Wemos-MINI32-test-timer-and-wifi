@@ -3,6 +3,8 @@
 // put function declarations here:
 int myFunction(int, int);
 
+#define WIFI_SSID ${{WIFI_SSID}}
+
 void setup() {
   // put your setup code here, to run once:
   int result = myFunction(2, 3);
